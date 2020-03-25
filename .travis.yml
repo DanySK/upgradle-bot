@@ -5,8 +5,8 @@ addons:
     update: true
 env:
   global:
-    - UPGRADLE_VERSION="upgradle-0.1.2"
+    - UPGRADLE_VERSION="0.1.2"
 install:
-  - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/v${UPGRADLE_VERSION}/upgradle-$UPGRADLE_VERSION-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
+  - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/v${UPGRADLE_VERSION}/upgradle-${UPGRADLE_VERSION}-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
 script:
   - travis_retry java -jar $TRAVIS_BUILD_DIR/upgradle.jar $TRAVIS_BUILD_DIR/upgradle.yml
