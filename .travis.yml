@@ -7,6 +7,6 @@ env:
 install:
   - travis_retry git clone --depth 1 $GRAVIS_REPO $GRAVIS
   - source $GRAVIS/install-jdk
-  - curl -sL --retry --retry-connrefused 10 https://github.com/DanySK/upgradle/releases/download/v$UPGRADLE_VERSION/upgradle-$UPGRADLE_VERSION-all.jar --output $HOME/upgradle.jar
+  - curl -sL --retry 10 --retry-connrefused https://github.com/DanySK/upgradle/releases/download/v$UPGRADLE_VERSION/upgradle-$UPGRADLE_VERSION-all.jar --output $HOME/upgradle.jar
 script:
   - java -jar upgradle.jar
