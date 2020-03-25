@@ -1,0 +1,13 @@
+includes:
+  - owners: DanySK
+    repos: upgradle
+    branches:
+      - master
+excludes:
+  - owners:
+      - Protelis
+      - Alchemist
+    repos: .*
+modules:
+  - GradleWrapper
+  - RefreshVersions
