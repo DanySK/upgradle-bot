@@ -5,12 +5,10 @@ addons:
     update: true
 env:
   global:
-    - UPGRADLE_VERSION="upgradle-0.1.1-dev04+25ddeb3"
-#    - GRAVIS_REPO="https://github.com/DanySK/Gravis-CI.git"
-#    - GRAVIS="$HOME/gravis"
+    - UPGRADLE_VERSION="upgradle-0.1.2"
 install:
-#  - travis_retry git clone --depth 1 $GRAVIS_REPO $GRAVIS
-#  - source $GRAVIS/install-jdk
-  - curl -sL --retry 10 --retry-connrefused https://github.com/DanySK/upgradle/releases/download/v$UPGRADLE_VERSION/upgradle-$UPGRADLE_VERSION-all.jar --output $TRAVIS_BUILD_DIR/upgradle.jar
+# https://github.com/DanySK/upgradle/releases/download/v0.1.1-dev04%2B25ddeb3/upgradle-0.1.1-dev04+25ddeb3-all.jar
+  - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/v0.1.1-dev04%2B25ddeb3/upgradle-0.1.1-dev04+25ddeb3-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
+#  - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/v${UPGRADLE_VERSION}/upgradle-$UPGRADLE_VERSION-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
 script:
   - travis_retry java -jar $TRAVIS_BUILD_DIR/upgradle.jar $TRAVIS_BUILD_DIR/upgradle.yml
