@@ -8,6 +8,9 @@ excludes:
       - Protelis
       - Alchemist
     repos: .*
+  - owners: DanySK
+    repos:
+      - alchemist-approximatemodelchecking
 modules:
   - GradleWrapper
   - RefreshVersions
