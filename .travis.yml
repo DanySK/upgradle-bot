@@ -9,7 +9,7 @@ env:
     - GRAVIS_REPO="https://github.com/DanySK/Gravis-CI.git"
     - GRAVIS="$HOME/gravis"
 install:
-  - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/v${UPGRADLE_VERSION}/upgradle-${UPGRADLE_VERSION}-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
+  - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/${UPGRADLE_VERSION}/upgradle-${UPGRADLE_VERSION}-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
 script:
   - travis_retry java -jar $TRAVIS_BUILD_DIR/upgradle.jar $TRAVIS_BUILD_DIR/upgradle.yml
 
