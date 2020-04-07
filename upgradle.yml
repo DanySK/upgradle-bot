@@ -1,6 +1,6 @@
 includes:
   - owners: DanySK
-    repos: (upgradle|^[0-P].*)
+    repos: (upgradle|^[0-S].*)
     branches:
       - master
 excludes:
