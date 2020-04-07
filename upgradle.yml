@@ -16,6 +16,7 @@ excludes:
       - Bug-.*
       - Experiment-.*
       - GoIV
+      - Paper-.*
       - PokeGOAPI-Java
       - Protelis
       - SmarTrRR
