@@ -9,6 +9,7 @@ excludes:
       - Protelis
       - Alchemist
     repos: .*
+  # Entirely excluded
   - owners: DanySK
     repos:
       - alchemist-approximatemodelchecking
@@ -18,6 +19,11 @@ excludes:
       - PokeGOAPI-Java
       - Protelis
       - SmarTrRR
+    # Master excluded
+    - owners: .*
+      branches: master
+      repos:
+        - DingNet-Protelis
 modules:
   - GradleWrapper
   - RefreshVersions
