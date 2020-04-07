@@ -11,6 +11,7 @@ excludes:
   - owners: DanySK
     repos:
       - alchemist-approximatemodelchecking
+      - Experiment-2019-LMCS-Share
 modules:
   - GradleWrapper
   - RefreshVersions
