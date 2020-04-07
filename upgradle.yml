@@ -12,7 +12,7 @@ excludes:
     repos:
       - alchemist-approximatemodelchecking
       - Bug-.*
-      - Experiment-*
+      - Experiment-.*
       - GoIV
 modules:
   - GradleWrapper
