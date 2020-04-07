@@ -16,9 +16,7 @@ excludes:
       - Experiment-.*
       - GoIV
       - PokeGOAPI-Java
-  - owners: DanySK
-    repos: Protelis
-    branches: master
+      - Protelis
 modules:
   - GradleWrapper
   - RefreshVersions
