@@ -20,11 +20,11 @@ excludes:
       - PokeGOAPI-Java
       - Protelis
       - SmarTrRR
-    # Master excluded
-    - owners: .*
-      branches: master
-      repos:
-        - DingNet-Protelis
+  # Master excluded
+  - owners: .*
+    branches: master
+    repos:
+      - DingNet-Protelis
 modules:
   - GradleWrapper
   - RefreshVersions
