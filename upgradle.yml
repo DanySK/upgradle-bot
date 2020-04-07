@@ -17,6 +17,7 @@ excludes:
       - GoIV
       - PokeGOAPI-Java
       - Protelis
+      - SmarTrRR
 modules:
   - GradleWrapper
   - RefreshVersions
