@@ -3,6 +3,7 @@ includes:
     repos: (upgradle|^[0-S].*)
     branches:
       - master
+      - develop
 excludes:
   - owners:
       - Protelis
@@ -15,6 +16,9 @@ excludes:
       - Experiment-.*
       - GoIV
       - PokeGOAPI-Java
+  - owners: DanySK
+    repos: Protelis
+    branches: master
 modules:
   - GradleWrapper
   - RefreshVersions
