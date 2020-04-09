@@ -1,14 +1,24 @@
 includes:
-  - owners: DanySK
+  - owners: .*
     repos: .*
     branches:
       - master
       - develop
 excludes:
-  - owners:
-      - Protelis
+  # Master exclusion for Alchemist (development on develop branch)
+  - owners: AlchemistSimulator
+    repos:
       - Alchemist
-    repos: .*
+      - SASO17.*
+    branches: master
+  # Master exclusion for Protelis (development on develop branch)
+  - owners: Protelis
+    repos:
+      - Protelis
+      - Protelis-Demo-Visualized
+      - Protelis-Parser
+      - Protelis-KDoc-generator
+    branches: master
   # Entirely excluded
   - owners: DanySK
     repos:
