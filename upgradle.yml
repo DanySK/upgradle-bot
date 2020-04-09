@@ -32,6 +32,7 @@ excludes:
       - build-commons
       - buildSrcVersions
       - Experiment-.*
+      - for-gentoo
       - GoIV
       - javalib
       - javalib-java7
@@ -40,6 +41,7 @@ excludes:
       - PokeGOAPI-Java
       - Protelis
       - protelis-lora-mqtt
+      - sabayon-distro
       - SmarTrRR
       - urlclassloader-util
   # Master excluded
