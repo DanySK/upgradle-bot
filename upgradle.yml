@@ -7,6 +7,8 @@ includes:
 excludes:
   # Total exclusion by owner
   - owners:
+      - ggraffieti
+      - NGPS2019
       - Spacco
     repos: .*
     branches: .*
@@ -36,6 +38,7 @@ excludes:
       - Bug-.*
       - build-commons
       - buildSrcVersions
+      - Cnchi
       - Experiment-.*
       - for-gentoo
       - GoIV
