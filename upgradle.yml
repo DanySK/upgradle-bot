@@ -24,6 +24,7 @@ excludes:
       - Experiment-.*
       - GoIV
       - javalib
+      - javalib-java7
       - Paper-.*
       - PokeGOAPI-Java
       - Protelis
