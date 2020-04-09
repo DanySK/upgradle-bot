@@ -29,6 +29,7 @@ excludes:
       - Paper-.*
       - PokeGOAPI-Java
       - Protelis
+      - protelis-lora-mqtt
       - SmarTrRR
       - urlclassloader-util
   # Master excluded
