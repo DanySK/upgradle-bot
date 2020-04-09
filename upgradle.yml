@@ -30,6 +30,7 @@ excludes:
       - PokeGOAPI-Java
       - Protelis
       - SmarTrRR
+      - urlclassloader-util
   # Master excluded
   - owners: .*
     branches: master
