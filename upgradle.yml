@@ -1,6 +1,6 @@
 includes:
   - owners: DanySK
-    repos: (upgradle|^[0-a].*)
+    repos: (upgradle|^[0-b].*)
     branches:
       - master
       - develop
@@ -13,6 +13,13 @@ excludes:
   - owners: DanySK
     repos:
       - alchemist-approximatemodelchecking
+      - alchemist-baselib
+      - alchemist-dsl-.*
+      - alchemist-implementationbase
+      - alchemist-maps
+      - alchemist-swingui
+      - build-commons
+      - buildSrcVersions
       - Bug-.*
       - Experiment-.*
       - GoIV
