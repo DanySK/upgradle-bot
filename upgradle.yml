@@ -18,11 +18,12 @@ excludes:
       - alchemist-implementationbase
       - alchemist-maps
       - alchemist-swingui
+      - Bug-.*
       - build-commons
       - buildSrcVersions
-      - Bug-.*
       - Experiment-.*
       - GoIV
+      - javalib
       - Paper-.*
       - PokeGOAPI-Java
       - Protelis
