@@ -5,7 +5,7 @@ addons:
     update: true
 env:
   global:
-    - UPGRADLE_VERSION="0.1.5-dev07+88b058b"
+    - UPGRADLE_VERSION="0.1.5-dev08+a290593"
     - GRAVIS_REPO="https://github.com/DanySK/Gravis-CI.git"
     - GRAVIS="$HOME/gravis"
 install:
