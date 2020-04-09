@@ -5,6 +5,11 @@ includes:
       - master
       - develop
 excludes:
+  # Total exclusion by owner
+  - owners:
+      - Spacco
+    repos: .*
+    branches: .*
   # Master exclusion for Alchemist (development on develop branch)
   - owners: AlchemistSimulator
     repos:
