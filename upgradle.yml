@@ -54,6 +54,7 @@ excludes:
       - sabayon-distro
       - SmarTrRR
       - tornadofx
+      - travis-testing-playground
       - urlclassloader-util
   # Master excluded
   - owners: .*
