@@ -10,6 +10,7 @@ excludes:
       - ggraffieti
       - NGPS2019
       - Spacco
+      - Vuksaa
     repos: .*
     branches: .*
   # Master exclusion for Alchemist (development on develop branch)
@@ -35,6 +36,7 @@ excludes:
       - alchemist-implementationbase
       - alchemist-maps
       - alchemist-swingui
+      - arch-yay
       - Bug-.*
       - build-commons
       - buildSrcVersions
@@ -51,12 +53,16 @@ excludes:
       - protelis-lora-mqtt
       - sabayon-distro
       - SmarTrRR
+      - tornadofx
       - urlclassloader-util
   # Master excluded
   - owners: .*
     branches: master
     repos:
+      - AGCT
       - DingNet-Protelis
+      - Protelis
+      - Protelis-Parser
 modules:
   - GradleWrapper
   - RefreshVersions
