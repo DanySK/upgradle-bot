@@ -68,3 +68,6 @@ excludes:
 modules:
   - GradleWrapper
   - RefreshVersions
+labels:
+  label: version-upgrade
+  color: deffaa
