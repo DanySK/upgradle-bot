@@ -69,5 +69,5 @@ modules:
   - GradleWrapper
   - RefreshVersions
 labels:
-  label: version-upgrade
+  name: version-upgrade
   color: deffaa
