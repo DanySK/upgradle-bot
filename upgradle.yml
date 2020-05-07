@@ -44,6 +44,7 @@ excludes:
       - Experiment-.*
       - for-gentoo
       - GoIV
+      - javadoc.io-linker
       - javalib
       - javalib-java7
       - konf
