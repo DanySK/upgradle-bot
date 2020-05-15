@@ -9,6 +9,7 @@ excludes:
   - owners:
       - ggraffieti
       - NGPS2019
+      - Placu95
       - Spacco
       - Vuksaa
     repos: .*
