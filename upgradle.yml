@@ -73,3 +73,5 @@ modules:
 labels:
   name: version-upgrade
   color: deffaa
+author:
+  email: danilo.pianini@gmail.com
