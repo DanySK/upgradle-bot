@@ -44,6 +44,7 @@ excludes:
       - Cnchi
       - Experiment-.*
       - for-gentoo
+      - fuel
       - GoIV
       - javadoc.io-linker
       - javalib
