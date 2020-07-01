@@ -1,6 +1,7 @@
 includes:
   - owners: .*
     repos: .*
+    topics: .*
     branches:
       - master
       - develop
