@@ -11,7 +11,7 @@ env:
 install:
   - curl -sL --retry 10 --retry-connrefused "https://github.com/DanySK/upgradle/releases/download/${UPGRADLE_VERSION}/upgradle-${UPGRADLE_VERSION}-all.jar" --output $TRAVIS_BUILD_DIR/upgradle.jar
 script:
-  - travis_retry java -jar $TRAVIS_BUILD_DIR/upgradle.jar $TRAVIS_BUILD_DIR/upgradle.yml
+  - travis_retry travis_wait 50 java -jar $TRAVIS_BUILD_DIR/upgradle.jar $TRAVIS_BUILD_DIR/upgradle.yml
 
 before_cache:
   - travis_retry git clone --depth 1 $GRAVIS_REPO $GRAVIS
