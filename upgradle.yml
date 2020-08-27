@@ -8,6 +8,7 @@ excludes:
   # Total exclusion by owner
   - owners:
       - Collaboration.*
+      - Fluidware-Project
       - ggraffieti
       - mazzio97
       - NGPS2019
