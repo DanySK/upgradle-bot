@@ -53,6 +53,7 @@ excludes:
       - javadoc\.io-linker
       - javalib
       - javalib-java7
+      - jekyll-.*
       - konf
       - libri-antichi
       - Paper-.*
