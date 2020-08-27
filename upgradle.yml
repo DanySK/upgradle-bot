@@ -54,6 +54,7 @@ excludes:
       - javalib
       - javalib-java7
       - konf
+      - libri-antichi
       - Paper-.*
       - PokeGOAPI-Java
       - Protelis
