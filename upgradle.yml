@@ -47,7 +47,7 @@ excludes:
       - for-gentoo
       - fuel
       - GoIV
-      - javadoc.io-linker
+      - javadoc\.io-linker
       - javalib
       - javalib-java7
       - konf
@@ -66,7 +66,8 @@ excludes:
     branches: master
     repos:
       - AGCT
-      - Area-4.0-server-infrastructure
+      - Area-4\.0-server-infrastructure
+      - danysk\.github\.io
       - DingNet-Protelis
       - Protelis
       - Protelis-Parser
