@@ -12,6 +12,7 @@ excludes:
       - Placu95
       - Spacco
       - Vuksaa
+      - Collaboration-2020-Impresoft
     repos: .*
     branches: .*
   # Master exclusion for Alchemist (development on develop branch)
