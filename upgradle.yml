@@ -12,6 +12,7 @@ excludes:
       - mazzio97
       - NGPS2019
       - Placu95
+      - s-mariani
       - Spacco
       - Vuksaa
     repos: .*
