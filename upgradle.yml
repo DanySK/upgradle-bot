@@ -7,8 +7,9 @@ includes:
 excludes:
   # Total exclusion by owner
   - owners:
-      - Collaboration-2020-Impresoft
+      - Collaboration.*
       - ggraffieti
+      - mazzio97
       - NGPS2019
       - Placu95
       - Spacco
