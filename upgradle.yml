@@ -68,6 +68,7 @@ excludes:
     repos:
       - AGCT
       - Area-4\.0-server-infrastructure
+      - css-blur-animation
       - danysk\.github\.io
       - DingNet-Protelis
       - Protelis
