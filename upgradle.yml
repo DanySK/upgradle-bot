@@ -73,7 +73,7 @@ excludes:
       - AGCT
       - Area-4\.0-server-infrastructure
       - css-blur-animation
-      - danysk\.github\.io
+      - .*github\.io
       - DingNet-Protelis
       - Protelis
       - Protelis-Parser
