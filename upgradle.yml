@@ -77,9 +77,17 @@ excludes:
       - DingNet-Protelis
       - Protelis
       - Protelis-Parser
+
 modules:
-  - GradleWrapper
-  - RefreshVersions
+  - name: GradleWrapper
+    options:
+      strategy: next
+      versionRegex: \d+(\.\d+)*
+  - name: RefreshVersions
+    options:
+      strategy: all
+      versionRegex: \d+(\.\d+)*
+
 labels:
   name: version-upgrade
   color: deffaa
