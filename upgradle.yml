@@ -85,7 +85,9 @@ modules:
       versionRegex: \d+(\.\d+)*
   - name: RefreshVersions
     options:
-      strategy: all
+      strategy:
+        - next
+        - latest
       versionRegex: \d+(\.\d+)*
 
 labels:
