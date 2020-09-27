@@ -89,6 +89,9 @@ modules:
         - next
         - latest
       versionRegex: v?\d+(?:\.\d+)*(:?-jre)?(:?-android)?
+  - name: TravisDist
+    options:
+      strategy: latest
 
 labels:
   name: version-upgrade
