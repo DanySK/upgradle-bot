@@ -1,6 +1,6 @@
 if: repo != head_repo
 language: java
-dist: bionic
+dist: focal
 addons:
   apt:
     update: true
