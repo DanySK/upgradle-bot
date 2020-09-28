@@ -1,3 +1,4 @@
+if: repo != head_repo
 language: java
 dist: bionic
 addons:
