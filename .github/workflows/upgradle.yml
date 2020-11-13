@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: DanySK/upgradle-action@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           configuration_file: upgradle.yml
