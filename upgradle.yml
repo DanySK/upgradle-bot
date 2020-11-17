@@ -45,7 +45,7 @@ excludes:
       - Bug-.*
       - build-commons
       - buildSrcVersions
-      - Cnchi
+      - Course-Laboratory-of-Software-Systems
       - Experiment-.*
       - for-gentoo
       - fuel
