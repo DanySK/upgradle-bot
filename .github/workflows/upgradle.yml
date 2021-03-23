@@ -13,4 +13,4 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           configuration_file: upgradle.yml
-          version: 0.3.4
+          version: 0.3.4-dev1u+36f1fac
